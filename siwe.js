@@ -14,7 +14,7 @@ async function createSiweMessage() {
       uri: "https://sandbox.oneramp.io",
       version: "1",
       chainId: "44787",
-      nonce: "dbffe61c35357cdbed9ee69e6f3941b2",
+      nonce: "", // Generate and update random nonce using openssl rand -hex 16
       issuedAt: currentDate.toISOString(),
       expirationTime: formattedExpirationDate,
     });

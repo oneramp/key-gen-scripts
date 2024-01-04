@@ -16,7 +16,7 @@ function createFiatConnectSignature(body, sharedSecretKey, timestamp) {
 }
 
 // Example usage
-const sharedSecretKey = "hk-396d2530db7f4e5a7d065aeec948a6eb";
+const sharedSecretKey = ""; // Enter webhook shared secret key here generated from the dashboard
 // const timestamp = Math.floor(Date.now() / 1000); // Current Unix timestamp
 
 const timestamp = "1234567890";
