@@ -9,7 +9,7 @@ async function createSiweMessage() {
 
     const message = new SiweMessage({
       statement: "Sign in with Ethereum to the app.",
-      address: "0x5CBDf5f9E468dF3888e04155668CcAfC6F6C4dcf",
+      address: "", // Enter your address here
       domain: "sandbox.oneramp.io",
       uri: "https://sandbox.oneramp.io",
       version: "1",
